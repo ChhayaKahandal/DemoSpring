@@ -34,10 +34,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
 //this is dev
 <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-client</artifactId>
+
+//this is QA
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-google</artifactId>
+
 		</dependency>
 		
 		<dependency>
